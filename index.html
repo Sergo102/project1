@@ -6,13 +6,325 @@
   <title>Main page</title>
 
   <!--Adding css to page-->
-  <link rel="stylesheet" href="#">
+  <link rel="stylesheet" href="dist/index.css">
 
   <!--Adding js to page-->
   <script src="app/js/app.js"></script>
   
 </head>
 <body>
+  <!--header-->
+  <header>
+    <img class="logo" src="img/main-page/Light-logo.png" alt="logo">
+    <section class="toggles">
+      <div class="theme-toggle">
+        <div class="theme-toggle__left"></div>
+        <div class="theme-toggle__right"></div>
+      </div>
+      <div class="menu-toggle" onclick="burgerMenuClick()"></div>
+    </section>
+  </header>
+
   
+  <!--navbar-->
+  <!-- <nav class="navbar">
+    <img class="logo" src="img/main-page/Light-logo.png" alt="logo">
+    <ul>
+      <li>
+        <a href="#">
+          Home
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          1. The Starry Night
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          2. The Night Cafe
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          3. The Red Vineyard
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          4. Ward in The Hospital in Arles</li>
+        </a>
+      <li>
+        <a href="#">
+          5. Ploughman in The Fields Near Arles</li>
+        </a>
+      <li>
+        <a href="#">
+          6. Paul Gauguin's Armchair</li>
+        </a>
+    </ul>
+  </nav> -->
+
+  <!--main-->
+  <main>
+
+
+    <h1>
+      VINCENT VAN GOGH.
+      POST-INPRESSIONIST PAINTER AND ARTIST
+    </h1>
+
+
+    <!--paitings-->
+    <article class="paintings">
+      <!--row1-->
+      <section class="paintings__row row1">
+        <div href="#" class="row1__left">
+          <a href="#">
+            <img src="img/main-page/1.png">
+          </a>
+          <h2>
+            <a href="#">
+              <span class="number">1</span>
+              <span class="name">
+                THE STARRY NIGHT
+              </span>
+              <div class="arrow-right"></div>
+            </a> 
+          </h2> 
+        </div>
+        <div href="#" class="row1__right">
+          <a href="#">
+            <img src="img/main-page/2.png">
+          </a>
+          <h2>
+            <a href="#">
+              <span class="number">2</span>
+              <span class="name">
+                THE NIGHT CAFE
+              </span>
+              <div class="arrow-right"></div>
+            </a>
+          </h2>
+        </div>
+      </section>
+
+      <!--row2-->
+      <section class="paintings__row row2">
+        <div href="#" class="row2__left">
+          <a href="#">
+            <img src="img/main-page/3.png">
+          </a>
+          <h2>
+            <a href="#">
+              <span class="number">3</span>
+              <span class="name">
+                THE RED VINEYARD
+              </span>
+              <div class="arrow-right"></div>
+            </a>  
+          </h2>
+        </div>
+        <div href="#" class="row2__right">
+          <a href="#">
+            <img src="img/main-page/4.png">
+          </a>
+          <h2>
+            <a href="#">
+              <span class="number">4</span>
+              <span class="name">
+                WARD IN THE HOSPITAL IN ARLES
+              </span>
+              <div class="arrow-right"></div>
+            </a>
+          </h2>
+        </div>
+      </section>
+
+      <!--row3-->
+      <section class="paintings__row row3">
+        <div href="#" class="row3__left">
+          <a href="#">
+            <img src="img/main-page/5.png">
+          </a>
+          <h2>
+            <a href="#">
+              <span class="number">5</span>
+              <span class="name">
+                PLOUGHMAN IN THE FIELDS NEAR ARLES
+              </span>
+              <div class="arrow-right"></div>
+            </a>  
+          </h2>
+        </div>
+        <div href="#" class="row3__right">
+          <a href="#">
+            <img src="img/main-page/6.png">
+          </a>
+          <h2>
+            <a href="#">
+              <span class="number">6</span>
+              <span class="name">
+                PAUL GAUGUIN'S ARMCHAIR
+              </span>
+              <div class="arrow-right"></div>
+            </a>
+          </h2>
+        </div>
+      </section>
+    </article>
+
+
+    <!--bio-->
+    <article class="bio">
+      <h3>
+        VAN GOGH PAINTED SEVERAL LANDSCAPES WITH FLOWERS, 
+        ROSES, LILACS, AND SUNFLOWERS.
+      </h3>
+      <p>
+        SOME REFLECT HIS INTERESTS IN THE LANGUAGE OF COLOUR, 
+        AND ALSO IN JAPANESE UKIYO-E. 
+        THERE ARE TWO SERIES OF DYING SUNFLOWERS. 
+        THE FIRST WAS PAINTED IN PARIS IN 1887 AND 
+        SHOWS FLOWERS LYING ON THE GROUND.
+      </p>
+      <section class="bio__dates">
+        <img src="img/main-page/bio-img.png" alt="bio-img">
+        <ul>
+          <li>
+            <div class="text">
+              <h4>
+                NUENEN AND ANTWERP
+              </h4>
+              <h5>
+                PAINTING INTERN
+              </h5>
+            </div>
+            <span class="number">
+              1883
+            </span>
+          </li>
+          <li>
+            <div class="text">
+              <h4>
+                PARIS
+              </h4>
+              <h5>
+                JUNIOR PAINTER
+              </h5>
+            </div>
+            <span class="number">
+              1886
+            </span> 
+          </li>
+          <li>
+            <div class="text">
+              <h4>
+                GAUGUIN'S VISIT
+              </h4>
+              <h5>
+                EXPERIMENTAL ARTIST
+              </h5>
+            </div>
+            <span class="number">
+              1888
+            </span>
+          </li>
+          <li>
+            <div class="text">
+              <h4>
+                SAINT-REMY
+              </h4>
+              <h5>
+                SENIOR PAINTER
+              </h5>
+            </div>
+            <span class="number">
+              1889
+            </span>
+          </li>
+          <li>
+            <div class="text">
+              <h4>
+                AUVERS-SUR-OISE
+              </h4>
+              <h5>
+                PAINTING STUDIO MANAGER
+              </h5>
+            </div>
+            <span class="number">
+              1890
+            </span>
+          </li>
+        </ul>
+      </section>
+    </article>
+  </main>
+
+  <!--Footer-->
+  <footer class="footer">
+    <a class="footer__left" href="https://www.vangoghmuseum.nl/en">
+      ☻@vangogh.com
+    </a>
+    <section class="footer__right">
+      <ul>
+        <li>
+          <a href="#">
+            <span>
+              LINKEDIN
+            </span>
+            <div class="footer-arrow">
+              &#10230
+            </div>
+          </a>
+        </li>
+        <li class="border left">
+          <a href="#">
+            <span>
+              DRIBBLE
+            </span>
+            <div class="footer-arrow">
+              &#10230
+            </div>
+          </a>
+        </li>
+        <li class="border right left">
+          <a href="#">
+            <span>
+              MYSPACE
+            </span>
+            <div class="footer-arrow">
+              &#10230
+            </div>
+          </a>
+        </li>
+        <li class="border right">
+          <a href="#">
+            <span>
+              GITHUB
+            </span>
+            <div class="footer-arrow">
+              &#10230
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span>
+              INSTAGRAM
+            </span>
+            <div class="footer-arrow">
+              &#10230
+            </div>
+          </a>
+        </li>
+      </ul>
+      <div class="arrow-up-border">
+        <div class="arrow-up">
+          &#10230
+        </div>
+      </div>
+    </section>
+  </footer>
 </body>
 </html>
