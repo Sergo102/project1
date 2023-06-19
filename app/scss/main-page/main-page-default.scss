@@ -1,3 +1,5 @@
+@use 'util/colors.scss';
+
 // Header
 header{
   margin-top: 30px;
@@ -12,9 +14,6 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    .theme-toggle{
-
-    }
   }
 }
 
@@ -29,6 +28,7 @@ main{
     width: 1032px;
     font-weight: 500;
     font-size: 82px;
+    color: var(--text-color);
   }
   //Paintings
   .paintings{
@@ -42,11 +42,11 @@ main{
         a{
           .number, .name{
             font-weight: 400;
-            color: #000;
           }
           .number{
             font-size: 18px;
             opacity: 0.5;
+            
           }
           .name{
             font-size: 19px;
@@ -56,8 +56,8 @@ main{
             margin: -23px 240px;
             width: 15px;
             height: 15px;
-            border-top: 2px solid #000;
-            border-left: 2px solid #000;
+            border-top: 2px solid var(--text-color);
+            border-left: 2px solid var(--text-color);
             transform: rotate(135deg);
           }
           .arrow-right::after{
@@ -65,7 +65,7 @@ main{
             display: block;
             width: 2px;
             height: 45px;
-            background-color: black;
+            background-color: var(--text-color);
             transform: rotate(-45deg) translate(15px, 4px);
             left: 0;
             top: 0;
@@ -267,19 +267,20 @@ main{
         }
       }
       li.border.left{
-        border-left: 1px solid #000;
+        border-left: 1px solid var(--text-color);
       }
       li.border.right.left{
-        border-left: 1px solid #000;
-        border-right: 1px solid #000;
+        border-left: 1px solid var(--text-color);
+        border-right: 1px solid var(--text-color);
       }
       li.border.right{
-        border-right: 1px solid #000;padding: 0 15px;
+        border-right: 1px solid var(--text-color);
+        padding: 0 15px;
       }
     }.arrow-up-border{
       width: 26px;
       height: 26px;
-      border: 1px solid #000;
+      border: 1px solid var(--text-color);
       border-radius: 50px;
       display: flex;
       justify-content: center;

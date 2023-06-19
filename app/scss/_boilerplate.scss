@@ -1,22 +1,90 @@
-body{
+body.dark{
   font-family: 'Inter';
+  background-color: var(--dark-bg-color);
+  color: var(--dark-text-color);
+  
+  .theme-toggle__left,
+  .theme-toggle__right{
+    border: 1px solid var(--dark-text-color);
+    cursor: pointer;
+  }
+  
+  a{
+    text-decoration: none;
+    color: var(--dark-text-color);
+  }
+  
+  a:hover{
+    text-decoration: underline;
+  }
+  
+  span.name{
+    color: var(--dark-text-color);
+  }
+  
+  ul{
+    list-style: none;
+    li{
+      color: var(--dark-text-color);
+    }
+  }
+  
+  header,
+  main,
+  footer{
+    width: 80%;
+    margin-left: 10%;
+    background: var(--dark-bg-color);
+    color: var(--dark-text-color);
+  }
 }
 
-a{
-  text-decoration: none;
-}
 
-a:hover{
-  text-decoration: underline;
-}
+body.light{
+  font-family: 'Inter';
+  background-color: var(--light-bg-color);
+  color: var(--light-text-color);
+  a, h1, h2, h3, h4, h5, span.name, div{
+    color: var(--light-text-color);
+  }
 
-ul{
-  list-style: none;
-}
+  .theme-toggle__left,
+  .theme-toggle__right{
+    border: 1px solid var(--light-text-color);
+    cursor: pointer;
+  }
 
-header,
-main,
-footer{
-  width: 80%;
-  margin-left: 10%;
+  .theme-toggle__left{
+    width: 8px;
+    padding-right: 2px; 
+    // I added padding here 'cause it can fix one bug,
+    // related to toggle
+    height: 18px;
+  }
+
+  .arrow-up-border{
+    border: 1px solid var(--light-text-color);
+  }
+  
+  a{
+    text-decoration: none;
+    color: var(--light-text-color);
+  }
+  
+  a:hover{
+    text-decoration: underline;
+  }
+  
+  ul{
+    list-style: none;
+  }
+  
+  header,
+  main,
+  footer{
+    width: 80%;
+    margin-left: 10%;
+    background: var(--light-bg-color);
+    color: var(--light-text-color);
+  }
 }

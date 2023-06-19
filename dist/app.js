@@ -1,8 +1,2 @@
-// function burgerMenuClick(){
-//   let toggle = document.querySelector('.nav-toggle');
-//   let menu = document.querySelector('.navbar');
-
-//   toggle.classList.toggle('active');
-//   menu.classList.toggle('active');
-// }
+window.addEventListener("DOMContentLoaded",(e=>{const a=document.querySelector(".theme-toggle");let o=document.querySelector("body"),t=document.querySelector(".logo");"dark"==o.className&&"enabled"===localStorage.getItem("dark-mode")?(o.className="dark",t.src="img/main-page/Dark-logo.png",localStorage.setItem("dark-mode","enabled")):(o.className="light",t.src="img/main-page/Light-logo.png",localStorage.setItem("dark-mode","disabled")),a.addEventListener("click",(function(){"dark"==o.className&&"enabled"===localStorage.getItem("dark-mode")?(o.className="light",t.src="img/main-page/Light-logo.png",localStorage.setItem("dark-mode","disabled")):(o.className="dark",t.src="img/main-page/Dark-logo.png",localStorage.setItem("dark-mode","enabled"))}))}));
 //# sourceMappingURL=app.js.map

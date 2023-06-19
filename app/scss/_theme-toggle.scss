@@ -5,15 +5,15 @@ div.theme-toggle{
   &__left{
     width: 8px;
     height: 18px;
-    border-radius: 12rem 0 0 12rem;
-    border: 1px solid black;
-    background-color: white;
+    border-radius: 12px 0 0 12px;
+    background-color: #fff; // Don't change bg color,
+                              // there's no reason to do it now
   }
   &__right{
     width: 8px;
     height: 18px;
-    border-radius: 0 12rem 12rem 0;
-    border: 1px solid black;
-    background-color: black;
+    border-radius: 0 12px 12px 0;
+    background-color: #000; // Don't change bg color,
+                               // there's no reason to do it now
   }
 }
