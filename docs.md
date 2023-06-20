@@ -2,3 +2,5 @@
 
 _boilerplate.scss = styles for dark/light version of site
 (colors, etc);
+
+_burger-menu.scss = styles for toggle and for 'about' section;

@@ -1,0 +1,80 @@
+#menu-toggle{
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 20px;
+  cursor: pointer;
+  .toggle-top,
+  .toggle-center,
+  .toggle-bottom{
+    width: 25px;
+    height: 1px;
+    padding: 0px;
+    transition: 0.5s all ease-in-out;
+  }
+
+  .toggle-top{
+    margin-bottom: 5px;
+  }
+  
+  .toggle-center{
+    margin-bottom: 5px;
+  }
+  
+  .toggle-bottom{
+    margin-bottom: -0.2px;
+  }
+}
+
+#menu-toggle.active{
+  .toggle-top{
+    transform: rotate(45deg);
+    transition: 0.5s all ease-in-out;
+    margin: 0px;
+  }
+  
+  .toggle-center{
+    display: none;    
+  }
+  
+  .toggle-bottom{
+    transform: rotate(-45deg);
+    margin: 0px;
+    transition: 0.5s all ease-in-out;
+  }
+}
+
+// About section
+.about{
+  height: 100%;
+  width: 100%;
+  z-index: 999999;
+  position: fixed;
+  &__wrapper{
+    display: flex;
+    height: inherit;
+    width: inherit;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    h2{
+      width: 420px;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 40px;
+    }
+  }
+}
+
+.about.unactive{
+  margin-left: -10000px;
+  transition: 0.5s all ease-in-out;
+}
+
+.about.active{
+  margin-left: 0px;
+  transition: 0.5s all ease-in-out;
+}

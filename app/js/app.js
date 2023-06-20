@@ -1,4 +1,4 @@
-// Theme toggle
+// Theme-toggle
 window.addEventListener('DOMContentLoaded', (event) => {
   const themeToggleVar = document.querySelector('.theme-toggle');
   let body = document.querySelector('body');
@@ -37,4 +37,25 @@ window.addEventListener('DOMContentLoaded', (event) => {
   
 });
 
-// Burger-menu toggle
+// Menu-toggle
+window.addEventListener('DOMContentLoaded', (event) => {
+  let menuToggle = document.querySelector('#menu-toggle');
+  let section = document.querySelector('.about');
+  // Creating a variable for toggle and for the section
+
+  menuToggle.addEventListener('click', menuToggleClick);
+  // Adding a 'click' event for toggle
+
+  function menuToggleClick(){
+    if(menuToggle.className == 'unactive' && 
+    section.classList.contains('unactive')){
+      menuToggle.className = 'active';
+      section.classList.add('active');
+      section.classList.remove('unactive');
+    }else{
+      menuToggle.className = 'unactive';
+      section.classList.remove('active');
+      section.classList.add('unactive');
+    };
+  }
+})
