@@ -1,0 +1,26 @@
+@media (max-width: 1280px) {
+  #row1{
+    width: 1080px;
+    .row1__right{
+      width: 480px;
+      img{
+        width: 480px;
+      }
+    }
+  }
+
+  #row2{
+    width: 1000px;
+    margin-left: 100px;
+    .row3__right{
+      width: 510px;
+      img{
+        width: 510px;
+      }
+    }
+  }
+
+  #row3{
+    width: 1040px;
+  }
+}
