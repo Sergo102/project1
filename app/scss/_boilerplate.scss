@@ -4,6 +4,14 @@ body.dark{
   color: var(--dark-text-color);
   transition: 0.5s all ease-in-out;
   
+  .arrow-right{   
+    border-top: 2px solid var(--dark-text-color);
+    border-left: 2px solid var(--dark-text-color);
+  }
+  .arrow-right::after{   
+    background-color: var(--dark-text-color);
+  }
+
   .toggle-top,
   .toggle-center,
   .toggle-bottom{
@@ -66,6 +74,13 @@ body.light{
   color: var(--light-text-color);
   transition: 0.5s all ease-in-out;
 
+  .arrow-right{   
+    border-top: 2px solid var(--light-text-color);
+    border-left: 2px solid var(--light-text-color);
+  }
+  .arrow-right::after{   
+    background-color: var(--light-text-color);
+  }
 
   .toggle-top,
   .toggle-center,
