@@ -29,14 +29,14 @@ main{
   float: left;
   margin-top: 30px;
   h1{
-    width: 1032px;
+    width: 12em;
     font-weight: 500;
     font-size: 82px;
     color: var(--text-color);
   }
   //Paintings
   .paintings{
-    height: 2000px;
+    height: auto;
     &__row{
       display: inline-flex;
       justify-content: space-between;
@@ -75,7 +75,7 @@ main{
       }
     }
     .row1{
-      width: 1300px;
+      width: 81.25em;
       margin-left: 10px;
       &__left{
         width: 548px;
@@ -102,10 +102,11 @@ main{
       }
     }
     .row2{
-      width: 1200px;
-      height: 750px;
+      width: 70em;
+      height: 46.875em;
       margin-top: 70px;
-      margin-left: 300px;
+      margin-left: 18%;
+      justify-content: space-evenly;
       &__left{
         img{
           width: 402px;
@@ -118,8 +119,10 @@ main{
         }
       }
       &__right{
-        width: 500px;
-        height: 702px;
+        width: 31,25em;
+        img{
+          width: 31,25em;
+        }
         h2{
           width: 390px;
           .arrow-right{
@@ -129,9 +132,9 @@ main{
       }
     }
     .row3{
-      width: 1063px;
+      width: 66em;
       height: 675px;
-      margin-left: 180px;
+      margin-left: 18em;
       margin-top: 0px;
       &__left{
         img{
@@ -160,16 +163,17 @@ main{
   //Bio
   .bio{
     h3, p{
-      width: 1024px;
       font-weight: 500;
     }
     h3{
+      width: 14em;
       font-size: 72px;
       line-height: 80px;
       margin-bottom: 0px;
       margin-top: 150px;
     }
     p{
+      width: 32em;
       font-size: 32px;
       line-height: 40px;
       margin-top: 20px;

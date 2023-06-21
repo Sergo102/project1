@@ -1,0 +1,40 @@
+@media (max-width: 1440px) {
+  #menu-toggle{
+    margin-left: 0px;
+  }
+
+  #row1{
+    width: 1200px;
+    .row1__left{
+      width: 448px;
+      img{
+        width: 448px;
+      }
+    }
+  }
+
+  #row2{
+    width: 1050px;
+    justify-content: space-between;
+    height: 650px;
+    margin-top: 40px;
+    .row2__left{
+      width: 448px;
+      img{
+        width: 448px;
+      }
+    }
+  }
+
+  #row3{
+    width: 1100px;
+    justify-content: space-between;
+    margin-left: 100px;
+    .row3__left{
+      width: 448px;
+      img{
+        width: 448px;
+      }
+    }
+  }
+}
