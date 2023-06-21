@@ -1,4 +1,9 @@
 body{
+  font-family: 'Inter';
+  background-color: var(--dark-bg-color);
+  color: var(--dark-text-color);
+  transition: 0.5s all ease-in-out;
+  
   header,
   main,
   footer{
@@ -14,13 +19,28 @@ body{
   header{
     padding: 20px 10%;
   }
+
+  .theme-toggle__left,
+  .theme-toggle__right{
+    cursor: pointer;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  a:hover{
+    text-decoration: underline;
+  }
+
+  ul{
+    list-style: none;
+  }
 }
 
 body.dark{
-  font-family: 'Inter';
   background-color: var(--dark-bg-color);
   color: var(--dark-text-color);
-  transition: 0.5s all ease-in-out;
   
   .arrow-right{   
     border-top: 2px solid var(--dark-text-color);
@@ -43,7 +63,6 @@ body.dark{
   .theme-toggle__left,
   .theme-toggle__right{
     border: 1px solid var(--dark-text-color);
-    cursor: pointer;
   }
 
   .arrow-up-border{
@@ -51,24 +70,17 @@ body.dark{
   }
   
   a{
-    text-decoration: none;
     color: var(--dark-text-color);
-  }
-  
-  a:hover{
-    text-decoration: underline;
   }
   
   span.name{
     color: var(--dark-text-color);
   }
   
-  ul{
-    list-style: none;
-    li{
-      color: var(--dark-text-color);
-    }
+  li{
+    color: var(--dark-text-color);
   }
+  
   
   header,
   main,
@@ -80,10 +92,8 @@ body.dark{
 
 
 body.light{
-  font-family: 'Inter';
   background-color: var(--light-bg-color);
   color: var(--light-text-color);
-  transition: 0.5s all ease-in-out;
 
   .arrow-right{   
     border-top: 2px solid var(--light-text-color);
@@ -110,7 +120,6 @@ body.light{
   .theme-toggle__left,
   .theme-toggle__right{
     border: 1px solid var(--light-text-color);
-    cursor: pointer;
   }
 
   .theme-toggle__left{
@@ -126,16 +135,7 @@ body.light{
   }
   
   a{
-    text-decoration: none;
     color: var(--light-text-color);
-  }
-  
-  a:hover{
-    text-decoration: underline;
-  }
-  
-  ul{
-    list-style: none;
   }
   
   header,
