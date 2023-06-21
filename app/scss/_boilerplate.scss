@@ -1,3 +1,21 @@
+body{
+  header,
+  main,
+  footer{
+    width: 80%;
+    transition: 0.5s all ease-in-out;
+  }
+  
+  main,
+  footer{
+    margin-left: 10%;
+  }
+
+  header{
+    padding: 20px 10%;
+  }
+}
+
 body.dark{
   font-family: 'Inter';
   background-color: var(--dark-bg-color);
@@ -57,13 +75,6 @@ body.dark{
   footer{
     background: var(--dark-bg-color);
     color: var(--dark-text-color);
-    transition: 0.5s all ease-in-out;
-  }
-  
-  main,
-  footer{
-    width: 80%;
-    margin-left: 10%;
   }
 }
 
@@ -132,12 +143,5 @@ body.light{
   footer{
     background: var(--light-bg-color);
     color: var(--light-text-color);
-    transition: 0.5s all ease-in-out;
-  }
-  
-  main,
-  footer{
-    width: 80%;
-    margin-left: 10%;
   }
 }

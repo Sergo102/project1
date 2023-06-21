@@ -2,14 +2,12 @@
 
 // Header
 header{
-  width: 90%;
   display: inline-flex;
   position: fixed;
   z-index: 999999999999999;
   top: 0;
-  left: 5%;
+  left: 0%;
   justify-content: space-between;
-  padding: 20px;
   .logo{
     width: 80px;
   }
