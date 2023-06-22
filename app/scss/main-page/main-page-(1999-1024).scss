@@ -87,3 +87,33 @@
     }
   }
 }
+
+@media (max-width: 1042px) {
+  #row2{
+    width: 830px;
+    margin-left: 10%;
+    .row2__left{
+      width: 360px;
+      img{
+        width: 360px;
+      }
+    }.row2__right{
+      width: 420px;
+      img{
+        width: 420px;
+      }
+    }
+  }
+
+  #row3{
+    width: 870px;
+    .row3__right{
+      width: 450px;
+      img{
+        width: 450px;
+      }
+    }    
+  }
+
+
+}
