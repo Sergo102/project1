@@ -282,7 +282,11 @@ main{
         border-right: 1px solid var(--text-color);
         padding: 0 15px;
       }
-    }.arrow-up-border{
+    }a{
+      text-decoration: none;
+    }
+    // This style is for the left arrow-up
+    .arrow-up-border{
       width: 26px;
       height: 26px;
       border: 1px solid var(--text-color);
