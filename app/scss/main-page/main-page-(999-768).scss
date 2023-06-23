@@ -96,8 +96,19 @@
 }
 
 @media (max-width: 900px) {
+  #header{
+    width: 93%;
+    padding: 20px 3.5%;
+  }
+
+  #main{
+    h1{
+      width: 95%;
+    }
+  }
+
   #row1{
-    width: 800px;
+    width: 95%;
     .row1__right{
       width: 370px;
       img{
@@ -107,12 +118,95 @@
   }
   
   #row2{
-    width: 800px;
+    width: 95%;
+    margin-left: 5%;
     .row2__right{
-      width: 370px;
+      width: 47%;
       img{
-        width: 370px;
+        width: 100%;
+      }
+      h2{
+        width: 100%;
+        .name{
+          font-size: 16px;
+        }
+        .arrow-right{
+          margin-left: 88%;
+        }
       }
     }
+  }
+
+  #row3{
+    width: 95%;
+    margin-left: 5%;
+    .row3__left{
+      width: 348px;
+      img{
+        width: 100%;
+        height: 240px;
+      }
+      h2{
+        width: 100%;
+        .arrow-right{
+          margin-left: 82%;
+        }
+      }
+    }
+    .row3__right{
+      width: 48%;
+      img{
+        width: 100%;
+      }
+      h2{
+        width: 100%;
+        .arrow-right{
+          margin-left: 82%;
+        }
+      }
+    }
+  }
+  
+
+  #bio{
+    h3{
+      width: 90%;
+      font-size: 50px;
+    }p{
+      width: 80%;
+      font-size: 20px;
+    }
+  }
+
+  #footer{
+    .footer__left{
+      font-size: 10px;
+    }
+    .footer__right{
+      width: 650px;
+      ul{
+        width: 550px;
+        li{
+          padding: 0 5px;
+          
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  #row1{
+    width: 100%;
+    .row1__right{
+      width: 370px;
+      img{
+        width: 100%;
+      }
+    }
+  }
+
+  #row2{
+    height: 550px;
   }
 }
