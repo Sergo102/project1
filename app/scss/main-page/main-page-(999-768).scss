@@ -210,3 +210,126 @@
     height: 550px;
   }
 }
+
+@media (max-width: 768px) {
+  .about{
+    h2{
+      width: 340px;
+      font-size: 25px;
+    }
+    img{
+      width: 347px;
+    }
+  }
+  
+  #main{
+    h1{
+      font-size: 60px;
+    }
+  }
+  
+  #row1{
+    width: 95%;
+    height: 350px;
+    .row1__left{
+      width: 300px;
+      img{
+        width: 100%;
+      }
+    }
+    .row1__right{
+      width: 260px;
+      img{
+        width: 100%;
+        height: 240px;
+      }
+    }
+  }
+
+  #row2{
+    width: 90%;
+    height: 500px;
+    margin-left: 10%;
+    .row2__left{
+      width: 270px;
+      img{
+        width: 100%;
+      }
+    }
+    .row2__right{
+      width: 300px;
+      h2{
+        .number{
+          font-size: 16px;
+        }
+        .name{
+          width: 100%;
+          font-size: 14px;
+        }
+        .arrow-right{
+          margin-left: 93%;
+        }
+      }
+    }
+  }
+
+  #row3{
+    width: 96%;
+    height: 450px;
+    .row3__left{
+      width: 270px;
+      img{
+        width: 100%;
+        height: 200px;
+      }
+      width: 300px;
+      h2{
+        .number{
+          font-size: 14px;
+        }
+        .name{
+          width: 200px;
+          font-size: 11.5px;
+        }
+        .arrow-right{
+          margin-left: 93%;
+        }
+      }
+    }
+    .row3__right{
+      width: 300px;
+      h2{
+        .arrow-right{
+          margin-left: 95%;
+        }
+      }
+    }
+  }
+  
+  #bio{
+    h3{
+      width: 100%;
+      font-size: 40px;
+      line-height: 45px;
+    }
+    .bio__dates{
+      img{
+        width: 300px;
+        height: 470px;
+      }
+    }
+  }
+
+  #footer{
+    .footer__left{
+      width: 100px;
+    }
+    .footer__right{
+      ul{
+        li{
+          padding: 0px 0px;
+        }
+      }
+    }
+  }
+}
