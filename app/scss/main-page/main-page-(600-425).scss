@@ -278,6 +278,7 @@
   #main{
     h1{
       font-size: 34px;
+      margin-top: 45px;
     }
     
     #row3{
@@ -292,6 +293,40 @@
           gap: 3px;
           .number{
             font-size: 9px;
+          }
+        }
+      }
+    }
+    
+    #bio{
+      h3{
+        font-size: 25px;
+        line-height: 35px;
+      }
+
+      p{
+        font-size: 15px;
+        line-height: 20px;
+        margin-top: 10px;
+      }
+
+      .bio__dates{
+        margin-top: 0px;
+        ul{
+          li{
+            margin-bottom: 20px;
+            height: auto;
+            .text{
+              h4{
+                font-size: 0.938rem;
+              }
+              h5{
+                font-size: 0.625rem;
+              }
+            }
+            span.number{
+              font-size: 1.063rem;
+            }
           }
         }
       }
