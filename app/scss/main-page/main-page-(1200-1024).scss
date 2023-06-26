@@ -1,3 +1,4 @@
+// 1157px, 1101px, 1042px, 
 @media (max-width: 1157px) {
   #row1{
     width: 1000px;
@@ -86,9 +87,7 @@
       font-size: 75px;
     }
   }
-}
 
-@media (max-width: 1042px) {
   #row2{
     width: 830px;
     margin-left: 10%;
@@ -104,7 +103,7 @@
       }
     }
   }
-
+  
   #row3{
     width: 870px;
     .row3__right{
@@ -114,6 +113,4 @@
       }
     }    
   }
-
-
 }
