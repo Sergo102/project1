@@ -35,3 +35,49 @@
     }
   }
 }
+
+@media (max-width: 329px) {
+  #footer{
+    #footer__right{
+      a, li{
+        width: auto;
+      }
+    }
+  }
+}
+
+@media (max-width: 300px) {  
+  #header{
+    width: 90%;
+    padding: 20px 5%;
+  }
+  
+  #main{
+    h2{
+      width: auto;
+    }
+  }
+
+  #footer{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 90px;
+    #footer__right{
+      width: 10%;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      ul{
+        width: 10%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        gap: 7px;
+        a, li{
+          width: 10%;
+        }
+      }
+    }
+  }  
+}
