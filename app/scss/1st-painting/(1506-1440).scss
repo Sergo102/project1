@@ -1,0 +1,19 @@
+// 1506px, 1440px
+@media (max-width: 1506px) {
+  img.painting__gallery{
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 1440px) {
+  article.painting__view{
+    width: 119.3%;
+    img.view__img{
+      width: 50%;
+    }
+    div.view__p{
+      width: 50%;
+    }
+  }
+}
