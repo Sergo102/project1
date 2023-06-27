@@ -1,4 +1,4 @@
-// 1147px, 1100px
+// 1147px, 1100px, 1050px, 1007px
 
 @media (max-width: 1147px) {
   .header__bg{
@@ -18,5 +18,21 @@
 
   section.change-page1{
     margin-left: 4%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .header__bg{
+    width: 101.5%;
+  }
+}
+
+@media (max-width: 1007px) {
+  .header__bg{
+    width: 101.6%;
+  }
+
+  section.change-page1{
+    margin-left: 0%;
   }
 }
