@@ -14,10 +14,12 @@
 <body class="light">
   
   <!-- Header -->
-  <header id="header" class="header">
-    <div class="header__top">
+  <header id="header1" class="header1">
+    <div class="header1__top">
       <a href="index.html" class="home">        
-        <div class="arrow-left"></div>
+        <div class="arrow-left-wrapper">
+          <span class="long-arrow-left"></span>
+        </div>
         <span>HOME</span>
       </a>
       <section class="toggles">
@@ -41,32 +43,45 @@
       </h1>
     </div>
   </header>
+  <img src="img/1. The Starry Night/header-background.png" class="header__bg" alt="header__background">
 
   <!-- Main -->
   <main id="main">
   
     <!-- Painting -->
     <section class="painting">
-      <img src="img/1. The Starry Night/1.png" alt="painting-img">
-      <article class="painting__info">
-        <ul>
-          <li>
-              <span class="key">YEAR</span>
-              <span class="value">1888</span>
-          </li>
-          <li>
-            <span class="key">MEDIUM</span>
-            <span class="value">OIL ON CANVAS</span>
-          </li>
-          <li>
-            <span class="key">LOCATION</span>
-            <span class="value">AYAL UNIVERSITY GALLERY</span>
-          </li>
-          <li>
-            <span class="key">SIZE</span>
-            <span class="value">28.5 in × 36.3 in</span>
-          </li>
-        </ul>
+      <img class="painting__img1" src="img/1. The Starry Night/1.png" alt="painting-img">
+      <article class="painting__info info">
+        <section class="info__ul">
+          <ul class="key">
+            <li>
+                <span class="key">YEAR</span>
+            </li>
+            <li>
+              <span class="key">MEDIUM</span>
+            </li>
+            <li>
+              <span class="key">LOCATION</span>
+            </li>
+            <li>
+              <span class="key">SIZE</span>
+            </li>
+          </ul>
+          <ul class="value">
+            <li>
+                <span class="value">1888</span>
+            </li>
+            <li>
+              <span class="value">OIL ON CANVAS</span>
+            </li>
+            <li>
+              <span class="value">AYAL UNIVERSITY GALLERY</span>
+            </li>
+            <li>
+              <span class="value">28.5 in × 36.3 in</span>
+            </li>
+          </ul>
+        </section>
         <p>
           The Night Café (French: Le Café de nuit) is 
           an oil painting created by Dutch artist 
@@ -80,14 +95,12 @@
       </article>
       
       <section class="painting__images">
-        <img src="img/1. The Starry Night/2.1.png">
-        <img src="img/1. The Starry Night/2.2.png">
+        <img class="img-left" src="img/1. The Starry Night/2.1.png">
+        <img class="img-right" src="img/1. The Starry Night/2.2.png">
       </section>
 
       <article class="painting__view view">
-        <div class="view__img">
-          <img src="img/1. The Starry Night/3.png">
-        </div>
+        <img class="view__img" src="img/1. The Starry Night/3.png">
         <div class="view__p">
           <p>
             IT DEPICTS THE VIEW FROM THE EAST-FACING 
@@ -116,27 +129,42 @@
           INCLUDING THE STARRY NIGHT
         </p>
       </article>
+      
+      <img class="painting__gallery" src="img/1. The Starry Night/4.png">
+      
+    </section>
     
-    </section>
-
-    <section class="gallery">
-      <img src="img/1. The Starry Night/4.png">
-    </section>
-
-    <section class="change-page">
-      <div class="left-change">
-        <div class="arrow-left"></div>
+    <section class="change-page1">
+      <a href="#" class="change-page1__left">
+        <div class="arrow-left-wrapper">
+          <span class="arrow"></span>
+        </div>
         <span>
           PAUL GAUGUIN'S ARMCHAIR
         </span>
-      </div>
-      <div class="right-change">
-        <div class="arrow-right"></div>
-        <span>
-          THE NIGHT CAFE
-        </span>        
-      </div>
+      </a>
+      <a href="2.html" class="change-page1__right">
+        <!-- Add the night cafe change page by using two
+        different ones but I don't wanna do it oh and don't
+        forget to change footer -->
+            <!-- <div class="arrow-right-wrapper">
+              <span class="arrow"></span>
+            </div>
+            <span>
+              THE NIGHT CAFE
+            </span>        
+          </a>
+          <a href="2.html" class="change-page1__right-hover-bg">
+            <img src="img/1. The Starry Night/change-page-hover-bg.png">
+            <div class="arrow-right-wrapper">
+              <span class="arrow"></span>
+            </div>
+            <span>
+              THE NIGHT CAFE
+            </span>   -->
+      </a>
     </section>
+
   </main>
 
   <footer id="footer" class="footer">
