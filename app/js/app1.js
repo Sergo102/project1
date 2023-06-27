@@ -11,22 +11,22 @@ window.addEventListener('DOMContentLoaded', (event) => {
   // Adding 'click' event and function to toggle
   
   function themeCheckFunc(){
-    if(body.className == 'dark' && localStorage.getItem('dark-mode1') === 'enabled'){
+    if(body.className == 'dark' && localStorage.getItem('dark-mode') === 'enabled'){
       body.className = 'dark';
-      localStorage.setItem("dark-mode1", "enabled");
+      localStorage.setItem("dark-mode", "enabled");
     }else{      
       body.className = 'light';
-      localStorage.setItem("dark-mode1", "disabled");  
+      localStorage.setItem("dark-mode", "disabled");  
     }
   }
   
   function themeToggleFunc(){
-    if(body.className == 'dark' && localStorage.getItem('dark-mode1') === 'enabled'){
+    if(body.className == 'dark' && localStorage.getItem('dark-mode') === 'enabled'){
       body.className = 'light';
-      localStorage.setItem("dark-mode1", "disabled");  
+      localStorage.setItem("dark-mode", "disabled");  
     }else{
       body.className = 'dark';
-      localStorage.setItem("dark-mode1", "enabled");
+      localStorage.setItem("dark-mode", "enabled");
     }
   }
   
