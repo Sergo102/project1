@@ -78,3 +78,44 @@
   margin-left: 0px;
   transition: 0.5s all ease-in-out;
 }
+
+
+// 1st painting styles
+#about1st{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 9999999;
+  position: fixed;
+  padding: 2% 0;
+  margin-top: -40%;
+  &__wrapper{
+    display: flex;
+    height: inherit;
+    width: inherit;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    h2{
+      width: 420px;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 40px;
+    }
+  }
+}
+
+#about1st.unactive{
+  margin-left: -10000px;
+  transition: 0.5s all ease-in-out;
+}
+
+#about1st.active{
+  margin-left: -8px;
+  transition: 0.5s all ease-in-out;
+}
+
+body.no-scroll{
+  height: 100%;
+  overflow-y: hidden;
+}

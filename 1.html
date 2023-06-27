@@ -11,7 +11,7 @@
   <!--Adding js to page-->
   <script src="app/js/app1.js"></script>
 </head>
-<body class="light">
+<body class="dark">
   
   <!-- Header -->
   <header id="header1" class="header1">
@@ -44,6 +44,16 @@
     </div>
   </header>
   <img src="img/1. The Starry Night/header-background.png" class="header__bg" alt="header__background">
+
+  <!-- section which pops up when menu-toggle being clicked -->
+  <section id="about1st" class="unactive">
+    <div class="about__wrapper">
+      <h2>
+        EXTENDED ABOUT SECTION COMING SOON
+      </h2>
+      <img src="img/about-img.png" alt="about-img">
+    </div>
+  </section>
 
   <!-- Main -->
   <main id="main">
@@ -139,29 +149,31 @@
         <div class="arrow-left-wrapper">
           <span class="arrow"></span>
         </div>
-        <span>
+        <span class="text">
           PAUL GAUGUIN'S ARMCHAIR
         </span>
       </a>
       <a href="2.html" class="change-page1__right">
+        <section class="surface">
+          <div class="arrow-right-wrapper">
+            <span class="arrow"></span>
+          </div>
+          <span class="text">
+            THE NIGHT CAFE
+          </span>
+        </section>
+        <section class="behind">
+          <img src="img/1. The Starry Night/change-page-hover-bg.png">
+          <!-- <div class="arrow-right-wrapper">
+            <span class="arrow"></span>
+          </div>
+          <span>
+            THE NIGHT CAFE
+          </span> -->
+        </section>
         <!-- Add the night cafe change page by using two
         different ones but I don't wanna do it oh and don't
         forget to change footer -->
-            <!-- <div class="arrow-right-wrapper">
-              <span class="arrow"></span>
-            </div>
-            <span>
-              THE NIGHT CAFE
-            </span>        
-          </a>
-          <a href="2.html" class="change-page1__right-hover-bg">
-            <img src="img/1. The Starry Night/change-page-hover-bg.png">
-            <div class="arrow-right-wrapper">
-              <span class="arrow"></span>
-            </div>
-            <span>
-              THE NIGHT CAFE
-            </span>   -->
       </a>
     </section>
 
