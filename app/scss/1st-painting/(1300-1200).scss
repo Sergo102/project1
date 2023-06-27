@@ -1,0 +1,25 @@
+// 1300px, 
+@media (max-width: 1300px) {
+  .header__bg{
+    width: 101.25%;
+  }
+
+  article.painting__conclusion{
+    width: 100%;
+    h3, p{
+      width: 90%;
+    }
+    h3{
+      font-size: 65px
+    }
+    p{
+      font-size: 27px;
+      margin-top: 15px;
+    }
+  }
+
+  section.change-page1{
+    padding: 0 10%;
+    margin-left: 12%;
+  }
+}

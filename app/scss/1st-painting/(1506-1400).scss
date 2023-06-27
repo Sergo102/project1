@@ -1,5 +1,9 @@
-// 1506px, 1440px
+// 1506px, 1440px, 1400px
 @media (max-width: 1506px) {
+  .header__bg{
+    width: 101.1%;
+  }
+
   img.painting__gallery{
     width: 80%;
     margin-left: 10%;
@@ -15,5 +19,11 @@
     div.view__p{
       width: 50%;
     }
+  }
+}
+
+@media (max-width: 1400px) {
+  .header__bg{
+    width: 101.15%;
   }
 }
