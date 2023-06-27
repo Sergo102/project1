@@ -279,15 +279,7 @@ main{
           text-decoration: none;
         }
       }
-      li.border.left{
-        border-left: 1px solid var(--text-color);
-      }
-      li.border.right.left{
-        border-left: 1px solid var(--text-color);
-        border-right: 1px solid var(--text-color);
-      }
       li.border.right{
-        border-right: 1px solid var(--text-color);
         padding: 0 15px;
       }
     }a.arrow-link{

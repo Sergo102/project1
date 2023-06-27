@@ -43,7 +43,18 @@ body{
 body.dark{
   background-color: var(--dark-bg-color);
   color: var(--dark-text-color);
-  
+
+  li.border.left{
+    border-left: 1px solid var(--dark-text-color);
+  }
+  li.border.right.left{
+    border-left: 1px solid var(--dark-text-color);
+    border-right: 1px solid var(--dark-text-color);
+  }
+  li.border.right{
+    border-right: 1px solid var(--dark-text-color);
+  }
+
   .arrow-right, .arrow-left{   
     border-top: 2px solid var(--dark-text-color);
     border-left: 2px solid var(--dark-text-color);
@@ -99,13 +110,24 @@ body.light{
   background-color: var(--light-bg-color);
   color: var(--light-text-color);
 
+  li.border.left{
+    border-left: 1px solid var(--light-text-color);
+  }
+  li.border.right.left{
+    border-left: 1px solid var(--light-text-color);
+    border-right: 1px solid var(--light-text-color);
+  }
+  li.border.right{
+    border-right: 1px solid var(--light-text-color);
+  }
+  
   .arrow-right, .arrow-left{   
-    border-top: 2px solid var(--dark-text-color);
-    border-left: 2px solid var(--dark-text-color);
+    border-top: 2px solid var(--light-text-color);
+    border-left: 2px solid var(--light-text-color);
   }
 
   .arrow-right::after, .arrow-left::after{   
-    background-color: var(--dark-text-color);
+    background-color: var(--light-text-color);
   }
 
   .toggle-top,
