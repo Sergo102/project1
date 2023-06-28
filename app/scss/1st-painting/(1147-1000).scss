@@ -28,11 +28,32 @@
 }
 
 @media (max-width: 1007px) {
+  #header1{
+    .header__content{
+      h1{
+        width: 86%;
+        font-size: 55px;
+      }
+    }
+  }
+
   .header__bg{
     width: 101.6%;
   }
 
+  article.info{
+    width: 87%;
+  }
+
   section.change-page1{
-    margin-left: 0%;
+    margin-left: 10%;
+    padding: 0;
+  }
+
+  article.painting__conclusion{
+    h3{
+      font-size: 55px;
+      line-height: 62px;
+    }
   }
 }

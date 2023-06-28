@@ -1,0 +1,26 @@
+// 950px, 917px
+@media (max-width: 950px) {
+  .header__bg{
+    width: 101.7%;
+  }
+
+  article.painting__view{
+    img.view__img{
+      height: 550px;
+    }
+    div.view__p{
+      height: 550px;
+      p{
+        font-size: 21px;
+        line-height: 28px;
+      }
+    }
+  }
+}
+
+@media (max-width: 917px) {
+  section.change-page1{
+    margin-left: 8%;
+    margin-right: 0;
+  }
+}
