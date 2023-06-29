@@ -1,7 +1,11 @@
-@forward 'main-page-default';
+@forward 'main-page-default'; // 1,920 x 1,080 pixels
+
+// 1440 - 1000px width
 @forward 'main-page-1440';
 @forward 'main-page-(1280-1200)';
 @forward 'main-page-(1200-1024)';
+
+// 999 - 280px width
 @forward 'main-page-(999-768)';
 @forward 'main-page-(768-600)';
 @forward 'main-page-(600-425)';

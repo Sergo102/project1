@@ -224,26 +224,11 @@
   }
   
   #footer{
+    width: 98%;
     .footer__right{
+      width: 75%;
       ul{
-        padding-left: 4px;
-        justify-content: space-evenly;
-        li{
-          width: 50px;
-          span{
-            font-size: 9px;
-          }.footer-arrow{
-            display: none;
-          }
-        }
-      }
-      .arrow-up-border{
-        width: 24px;
-        height: 24px;
-        .arrow-up{
-          width: 20px;
-          height: 20px;
-        }
+        width: auto;
       }
     }
   }
@@ -253,6 +238,19 @@
   #main{
     h1{
       font-size: 37px;
+    }
+  }
+
+  #footer{
+    width: 100%;
+    .footer__left{
+      width: 90px;
+    }
+    .footer__right{
+      width: 78%;
+      ul{
+        width: auto;
+      }
     }
   }
 }
@@ -311,6 +309,22 @@
               font-size: 1.063rem;
             }
           }
+        }
+      }
+    }
+  }
+
+  #footer{
+    width: 100%;
+    a.footer__left{
+      width: 80px;
+    }
+    section.footer__right{
+      width: 73%;
+      ul{
+        width: auto;
+        li{
+          padding: 0 5px;
         }
       }
     }
