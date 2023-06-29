@@ -1,4 +1,4 @@
-// 950px, 917px
+// 950px, 917px, 900px, 890px, 825px
 @media (max-width: 950px) {
   .header__bg{
     width: 101.7%;
@@ -22,5 +22,56 @@
   section.change-page1{
     margin-left: 8%;
     margin-right: 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .header__bg{
+    width: 101.8%;
+  }
+
+  article.info{
+    width: 95%;
+  }
+}
+
+@media (max-width: 890px) {
+  img.painting__gallery{
+    margin-left: 10%;
+  }
+
+  section.change-page1{
+    margin-left: 3%;
+  }
+}
+
+@media (max-width: 825px) {
+  #header__bg{
+    width: 102%;
+  }
+
+  article.painting__view{
+    width: 119.6%;
+    div.view__p{
+      // width: 100%;
+      p{
+        width: 85%;
+      }
+    }
+  }
+
+  article.painting__conclusion{
+    h3{
+      font-size: 50px;
+      line-height: 57px;
+    }
+    p{
+      font-size: 24px;
+      line-height: 33px;
+    }
+  }
+
+  section.change-page1{
+    margin-left: 1%;
   }
 }

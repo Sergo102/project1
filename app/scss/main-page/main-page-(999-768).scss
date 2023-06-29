@@ -223,6 +223,16 @@
   #row2{
     height: 550px;
   }
+
+  #footer{
+    width: 92%;
+    .footer__right{
+      width: 84.75%;
+      ul{
+        width: 93%;
+      }
+    }
+  }
 }
 
 @media (max-width: 768px) {
