@@ -1,4 +1,4 @@
-// 768px, 730px, 700px
+// 768px, 730px, 700px, 650px
 @media (max-width: 768px) {
   #header__bg{
     width: 102.1%;
@@ -70,5 +70,70 @@
 @media (max-width: 700px) {
   #header__bg{
     width: 102.3%;
+  }
+}
+
+@media (max-width: 650px) {
+  #header1{
+    .header__content{
+      margin-top: 20px;
+      h1{
+        font-size: 50px;
+      }
+    }
+  }
+
+  article.painting__info{
+    height: 100px;
+    margin: 60px 0;
+    .info__ul{
+      ul{
+
+        li{
+          font-weight: 400;
+          font-size: 12px;
+        }
+      }
+      ul.key{
+        width: 80px;
+        li{
+          width: auto;
+          .key{
+            width: auto;
+          }
+        }
+      }
+      ul.value{
+        width: 165px;
+        li{
+          width: auto;
+          span.value{
+            width: auto;
+          }
+        }
+      }
+    }
+    p{
+      width: 53%;
+      line-height: 17px;
+      font-size: 12px;
+    }
+  }
+
+  article.painting__view{
+    width: 120%;
+    div.view__p{
+      p{
+        width: 75%;
+        font-size: 19px;
+        line-height: 25px;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  #header__bg{
+    width: 102.7%;
   }
 }
