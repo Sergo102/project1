@@ -226,7 +226,7 @@ main{
       align-items: center;
       background: var(--light-text-color);
       border-radius: 50%;
-      .arrow-left-wrapper,
+      .arrow-left-wrapper, 
       .arrow-right-wrapper{
         width: 30px;
         display: flex;
@@ -274,8 +274,8 @@ main{
         flex-direction: column;
       }
       .behind{
-        width: 16rem;
-        height: 16rem;
+        width: inherit;
+        height: inherit;
         margin-top: 0px;
         margin-left: -10000px;
       }

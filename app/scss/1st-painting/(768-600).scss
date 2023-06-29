@@ -64,6 +64,16 @@
       width: 10rem;
       height: 10rem;
     }
+    a.change-page1__right{
+      .behind{
+        width: 160px;
+        height: 160px;
+        img{
+          width: inherit;
+          height: inherit;
+        }
+      }
+    }
   }
 }
 
