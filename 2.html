@@ -3,17 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>1st painting page</title>
-
+  <title>2nd painting page</title>
   <!--Adding css to page-->
   <link rel="stylesheet" href="dist/index.css">
 
   <!--Adding js to page-->
-  <script src="app/js/app1.js"></script>
+  <script src="app/js/app2.js"></script>
 </head>
-<body class="dark">
-  
-  <!-- Header -->
+<body>
+  <!-- header -->
   <header id="header1" class="header1">
     <div class="header1__top">
       <a href="index.html" class="home">        
@@ -35,19 +33,22 @@
       </section>
     </div>
     <div class="header__content">
-      <h2 class="header__content__title">1. The Starry Night</h2>
+      <h2 class="header__content__title">2. The Night Cafe</h2>
       <h1>
-        THE STARRY NIGHT IS AN OIL ON CANVAS PAINTING BY 
-        DUTCH POST IMPRESSIONIST PAINTER VAN GOGH. 
-        PAINTED IN JUNE 1889.
+        I HAVE TRIED OT EXPRESS THE TERRIBLE PASSION OF 
+        HUMANITY BY MEANS OF RED AND PURPLE
       </h1>
     </div>
   </header>
-  
-  <img id="header__bg" class="header__bg" src="img/1. The Starry Night/header-background.png" alt="header__background">
 
-  <!-- section which pops up when menu-toggle being clicked -->
-  <section id="about1st" class="unactive">
+  <!-- header background -->
+  <section class="header__bg2">
+    <div class="header__bg2__left"></div>
+    <img class="header__bg2__right" src="img/2. The Night Café/header-2nd-half-bg.png">
+  </section>
+
+  <!-- about section -->
+  <section id="about2nd" class="unactive">
     <div class="about__wrapper">
       <h2>
         EXTENDED ABOUT SECTION COMING SOON
@@ -56,13 +57,11 @@
     </div>
   </section>
 
-  <!-- Main -->
+
+  <!-- main -->
   <main id="main">
-  
-    <!-- Painting -->
     <section class="painting">
-      <img class="painting__img1" src="img/1. The Starry Night/1.png" alt="painting-img">
-      <article class="painting__info info">
+      <article id="painting__info2" class="painting__info info">
         <section class="info__ul">
           <ul class="key">
             <li>
@@ -104,76 +103,74 @@
           Connecticut.
         </p>
       </article>
-      
-      <section class="painting__images">
-        <img class="img-left" src="img/1. The Starry Night/2.1.png">
-        <img class="img-right" src="img/1. The Starry Night/2.2.png">
+
+      <section class="painting__content">
+
+        <img class="painting__content__img1" src="img/2. The Night Café/1.png">
+        
+        <section class="painting__content__gallery">
+          <div class="gallery__left">
+            <img src="img/2. The Night Café/2.1.png">
+            <p>
+              THE INTERIOR DEPICTED IS THE CAFE DE LA GARE, 
+              30 PLACE LAMARTINE, RUN BY JOSEPH GINOUX AND HIS 
+              WIFE MARIE, WHO IN NOVEMBER 1888 POSED FOR VAN 
+              GOGH'S AND GAUGUIN'S ARLESIENNE; A BIT LATER, 
+              JOSEPH GINOUX EVIDENTLY POSED FOR BOTH ARTISTS.
+            </p>
+          </div>
+          <div class="gallery__right">
+            <img src="img/2. The Night Café/2.2.png">
+          </div>
+        </section>
+
+        <img class="painting__content__img3" src="img/2. The Night Café/3.png" >
+        
+        <section class="painting__content__p">
+          <p>
+            HE NIGHT CAFE (FRENCH: LE CAFE DE NUIT) IS AN OIL 
+            PAINTING CREATED BY DUTCH ARTIST VINCENT VAN GOGH 
+            IN SEPTEMBER 1888 IN ARLES.[1] IT'S TITLE IS 
+            INSCRIBED LOWER RIGHT BENEATH THE SIGNATURE. THE 
+            PAINTING IS OWNED BY YALE UNIVERSITY AND IS CURRENTLY 
+            HELD AT THE YALE UNIVERSITY ART GALLERY IN HAVEN, 
+            CONNETCTICUT
+          </p>
+        </section>
+
+        <img class="painting__content__img4" src="img/2. The Night Café/4.png">
       </section>
 
-      <article class="painting__view view">
-        <img class="view__img" src="img/1. The Starry Night/3.png">
-        <div class="view__p">
-          <p>
-            IT DEPICTS THE VIEW FROM THE EAST-FACING 
-            WINDOW OF HIS ASYLUM ROOM AT SAINT REMY DE 
-            PROVENCE, JUST BEFORE SUNRISE, WITH THE ADDITION 
-            OF AN IMAGINARY VILLAGE. IT HAS BEEN IN THE PERMANENT 
-            COLLECTION OF THE MUSEUM OF MODERN ART IN NEW YORK 
-            CITY SINCE 1941, ACQUIRED THROUGH THE LIZZIE 
-            PLUMMER BLISS BEQUEST.
-          </p>
-        </div>
-      </article>
-
-      <article class="painting__conclusion">
-        <h3>
-          ALTHOUGH THE STARRY NIGHT WAS PAINTED DURING 
-          THE DAY IN VAN GOGH'S GROUND-FLOOR STUDIO, 
-          IT WOULD BE INACCURATE TO STATE THAT 
-          THE PICTURE WAS PAINTED FROM MEMORY.
-        </h3>
-
-        <p>
-          THE VIEW HAS BEEN IDENTIFIED AS THE ONE FROM HIS 
-          BEDROOM WINDOW, FACING EAST, A VIEW WHICH VAN GOGH 
-          PAINTED VARIATIONS OF NO FEWER THAN TWENTY-ONE TIMES, 
-          INCLUDING THE STARRY NIGHT
-        </p>
-      </article>
-      
-      <img class="painting__gallery" src="img/1. The Starry Night/4.png">
-      
-    </section>
-    
-    <section class="change-page1">
-      <a href="#" class="change-page1__left">
-        <div class="arrow-left-wrapper">
-          <span class="arrow"></span>
-        </div>
-        <span class="text">
-          PAUL GAUGUIN'S ARMCHAIR
-        </span>
-      </a>
-      <a href="2.html" class="change-page1__right">
-        <section class="surface">
+      <section class="change-page2">
+        <a href="1.html" class="change-page2__left">
+          <section class="surface">
+            <div class="arrow-left-wrapper">
+              <span class="arrow"></span>
+            </div>
+            <span class="text">
+              THE STARRY NIGHT
+            </span>
+          </section>
+          <section id="behind" class="behind">
+            <img src="img/2. The Night Café/change-page-hover-bg.png">
+          </section>
+          <!-- Add the night cafe change page by using two
+          different ones but I don't wanna do it oh and don't
+          forget to change footer -->
+        </a>
+        <a href="#" class="change-page2__right">
           <div class="arrow-right-wrapper">
             <span class="arrow"></span>
           </div>
           <span class="text">
-            THE NIGHT CAFE
+            THE RED VINEYARD
           </span>
-        </section>
-        <section id="behind" class="behind">
-          <img src="img/1. The Starry Night/change-page-hover-bg.png">
-        </section>
-        <!-- Add the night cafe change page by using two
-        different ones but I don't wanna do it oh and don't
-        forget to change footer -->
-      </a>
+        </a>
+      </section>
     </section>
-
   </main>
 
+  <!-- footer -->
   <footer id="footer" class="footer">
     <a class="footer__left" href="https://www.vangoghmuseum.nl/en">
       ☻@vangogh.com

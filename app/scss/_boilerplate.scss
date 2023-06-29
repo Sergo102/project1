@@ -141,6 +141,26 @@ body.dark{
   #about1st{
     background-color: var(--dark-bg-color);
   }
+
+  #about2nd{
+    background-color: var(--dark-bg-color);
+  }
+
+  // 2nd painting styles
+  .change-page2__right,
+  .change-page2__left{
+    background-color: var(--dark-text-color);
+    span.arrow{
+      border-top: 2px solid var(--dark-bg-color);
+      border-left: 2px solid var(--dark-bg-color);
+    }
+    span.arrow::after{
+      background-color: var(--dark-bg-color);
+    }
+    .text{
+      color: var(--dark-bg-color);
+    }
+  }
 }
 
 
@@ -225,6 +245,10 @@ body.light{
   #about1st{
     background-color: var(--light-bg-color);
   }
+
+  #about2nd{
+    background-color: var(--light-bg-color);
+  }
   
   .view__p{
     color: var(--light-bg-color);
@@ -232,6 +256,22 @@ body.light{
 
   .change-page1__right,
   .change-page1__left{
+    background-color: var(--light-text-color);
+    span.arrow{
+      border-top: 2px solid var(--light-bg-color);
+      border-left: 2px solid var(--light-bg-color);
+    }
+    span.arrow::after{
+      background-color: var(--light-bg-color);
+    }
+    .text{
+      color: var(--light-bg-color);
+    }
+  }
+
+  // 2nd painting styles
+  .change-page2__right,
+  .change-page2__left{
     background-color: var(--light-text-color);
     span.arrow{
       border-top: 2px solid var(--light-bg-color);

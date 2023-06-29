@@ -24,3 +24,5 @@
 9. CSS arrows -> https://codepen.io/MaryG/pen/WbvRrz
 
 10. Burger menu -> https://codepen.io/alvarotrigo/pen/poWRrQW
+
+11. Tip for better loading images -> https://www.youtube.com/watch?v=hJ7Rg1821Q0&ab_channel=WebDevSimplified

@@ -1,6 +1,10 @@
-@forward 'boilerplate';
-@forward 'burger-menu';
-@forward 'theme-toggle';
+@forward 'boilerplate'; // colors for dark/light theme
+@forward 'burger-menu'; // About menu
+@forward 'theme-toggle'; // toggle styles
+@forward 'util'; // color variables, fonts
+
 @forward 'main-page';
-@forward 'util';
+
 @forward '1st-painting';
+
+@forward '2nd-painting';
