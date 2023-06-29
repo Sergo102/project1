@@ -1,0 +1,74 @@
+// 768px, 730px, 700px
+@media (max-width: 768px) {
+  #header__bg{
+    width: 102.1%;
+  }
+
+  #about1st{
+    width: 100%;
+    h2{
+      width: 45%;
+    }
+    img{
+      width: 35%;
+    }
+  }
+
+  article.painting__conclusion{
+    width: 100%;
+    h3, p{
+      width: 100%;
+    }
+    h3{
+      font-size: 44px;
+      line-height: 46px;
+    }
+    p{
+      font-size: 18px;
+      line-height: 26px;
+      margin-top: 6px;
+    }
+  }
+
+  section.change-page1{
+    width: 40rem;
+    margin-left: 2rem;
+  }
+
+  .arrow-up-border{
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 730px) {
+  article.painting__view{
+    img.view__img,
+    div.view__p{
+      height: 470px;
+    }
+  }
+  
+  article.painting__conclusion{
+    h3{
+      font-size: 40px;
+      line-height: 40px;
+    }
+  }
+
+  section.change-page1{
+    width: 65%;
+    height: 10rem;
+    margin-left: 20%;
+    a.change-page1__left,
+    a.change-page1__right{
+      width: 10rem;
+      height: 10rem;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  #header__bg{
+    width: 102.3%;
+  }
+}

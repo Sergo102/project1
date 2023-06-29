@@ -50,10 +50,17 @@
     width: 102%;
   }
 
+  article.info{
+    width: 100%;
+    p{
+      width: 50%;
+      font-size: 12px;
+    }
+  }
+
   article.painting__view{
     width: 119.6%;
     div.view__p{
-      // width: 100%;
       p{
         width: 85%;
       }
@@ -72,6 +79,6 @@
   }
 
   section.change-page1{
-    margin-left: 1%;
+    margin-left: -2%;
   }
 }
