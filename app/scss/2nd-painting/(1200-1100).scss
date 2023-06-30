@@ -1,3 +1,4 @@
+// 1200px, 1150px
 @media (max-width: 1200px) {
   #about2nd.active{
     padding: 0;
@@ -25,5 +26,30 @@
   
   .change-page2{
     width: 40rem;
+  }
+}
+
+@media (max-width: 1150px) {
+  .change-page2{
+    width: 38rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  .painting__content__gallery{
+    height: 630px;
+    .gallery__left{
+      img{
+        width: 100%;
+      }
+      p{
+        font-size: 21px;
+        line-height: 25px;
+      }
+    }
+  }
+
+  .change-page2{
+    margin-left: 18%;
   }
 }
