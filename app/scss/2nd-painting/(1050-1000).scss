@@ -1,5 +1,11 @@
 // 1050px, 1000px
 @media (max-width: 1050px) {
+  #about2nd.active{
+    img{
+      width: 15rem;
+    }
+  }
+
   .painting__content__gallery{
     height: 580px;
     .gallery__left{

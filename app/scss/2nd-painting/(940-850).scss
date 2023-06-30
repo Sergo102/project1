@@ -1,4 +1,4 @@
-// 940px, 900px
+// 940px, 900px, 880px, 850px
 @media (max-width: 940px) {
   .painting__content__gallery{
     .gallery__left{
@@ -20,7 +20,51 @@
 }
 
 @media (max-width: 900px) {
+  .painting__content__img1,
+  .painting__content__img3,
+  .painting__content__img4{
+    width: 85%;
+    height: 550px;
+  }
+
+  .painting__content__gallery{
+    width: 85%;
+    .gallery__left{
+      width: 40%;
+      display: flex;
+      align-items: flex-end;
+      img{
+        width: 80%;
+      }
+      p{
+        width: 100%;
+        font-size: 20px;
+        line-height: 24px;
+        margin-left: 0;
+      }
+    }
+  }
+  
+  .painting__content__p{
+    width: 60%;
+  }
+
   .change-page2{
     width: 35rem;
+  }
+}
+
+@media (max-width: 880px) {
+  .change-page2{
+    width: 35rem;
+    margin-left: 14.9%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 850px) {
+  .change-page2{
+    margin-left: 13.7%;
   }
 }
