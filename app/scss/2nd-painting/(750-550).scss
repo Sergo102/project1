@@ -1,0 +1,61 @@
+// 750px, 730px, 700px
+@media (max-width: 750px) {
+  #painting__info2{
+    height: 120px;
+    margin-left: 0;
+  }
+
+  .painting__content__img1,
+  .painting__content__img3,
+  .painting__content__img4{
+    width: 90%;
+    height: 550px;
+  }
+
+  .change-page2{
+    margin-left: 8%;
+  }
+}
+
+@media (max-width: 730px) {
+  .change-page2{
+    margin-left: 7%;
+  }
+}
+
+@media (max-width: 700px) {
+  .painting__content__img1,
+  .painting__content__img3,
+  .painting__content__img4{
+    width: 90%;
+    height: 500px;
+  }
+
+  .painting__content__gallery{
+    width: 90%;
+    height: 520px;
+    margin: 60px 0;
+    .gallery__left{
+      width: 45%;
+      p{
+        width: 100%;
+        font-size: 18px;
+        line-height: 22px;
+        margin-left: 0;
+      }
+    }
+  }
+
+  .painting__content__p{
+    width: 75%;
+    p{
+      width: 100%;
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+
+  .change-page2{
+    margin-left: 5%;
+  }
+}
