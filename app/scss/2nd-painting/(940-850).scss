@@ -1,0 +1,26 @@
+// 940px, 900px
+@media (max-width: 940px) {
+  .painting__content__gallery{
+    .gallery__left{
+      p{
+        width: 132%;
+        font-size: 20px;
+        line-height: 24px;
+      }
+    }
+  }
+  
+  .painting__content__p{
+    width: 55%;
+  }
+
+  .change-page2{
+    width: 36rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .change-page2{
+    width: 35rem;
+  }
+}
