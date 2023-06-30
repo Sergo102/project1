@@ -1,4 +1,4 @@
-// 750px, 730px, 700px
+// 750px, 730px, 700px, 680px, 650px, 630px
 @media (max-width: 750px) {
   #painting__info2{
     height: 120px;
@@ -57,5 +57,81 @@
 
   .change-page2{
     margin-left: 5%;
+  }
+}
+
+@media (max-width: 680px) {
+  #about2nd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div.about__wrapper{
+      height: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      h2{
+        width: 45%;
+        font-size: 26px;
+        line-height: 30px;
+        padding-top: 7rem;
+      }
+      img{
+        width: 13rem;
+        padding-top: 7rem;
+      }
+    }
+  }
+
+  .change-page2{
+    width: 34rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .change-page2{
+    width: 30rem;
+    height: 13rem;
+    margin-left: 8%;
+    &__left,
+    &__right{
+      width: 13rem;
+      height: 13rem;
+    }
+  }
+}
+
+@media (max-width: 630px) {
+  .change-page2{
+    margin-left: 7.25%;
+  }
+}
+
+@media (max-width: 600px) {
+  #painting__info2{
+    p{
+      width: 50%;
+      font-size: 11px;
+      line-height: 15px;
+    }
+  }
+
+  .painting__content__gallery{
+    width: 90%;
+    height: 480px;
+    margin: 50px 0;
+    .gallery__left{
+      width: 45%;
+      p{
+        width: 100%;
+        font-size: 17px;
+        line-height: 21px;
+        margin-left: 0;
+      }
+    }
+  }
+
+  .change-page2{
+    margin-left: 5.5%;
   }
 }
