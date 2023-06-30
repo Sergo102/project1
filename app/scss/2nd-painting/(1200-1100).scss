@@ -1,0 +1,29 @@
+@media (max-width: 1200px) {
+  #about2nd.active{
+    padding: 0;
+    img{
+      width: 20rem;
+    }
+  }
+
+  .painting__content__gallery{
+    .gallery__left{
+      p{
+        font-size: 22px;
+        line-height: 26px;
+      }
+    }
+  }
+
+  .painting__content__p{
+    p{
+      margin: 0;
+      font-size: 22px;
+      line-height: 26px;
+    }
+  }
+  
+  .change-page2{
+    width: 40rem;
+  }
+}
