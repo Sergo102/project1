@@ -36,6 +36,18 @@
 }
 
 @media (max-width: 1100px) {
+  .header__bg2{
+    height: 700px;
+    &__left,
+    &__right{
+      height: 700px;
+    }
+  }
+
+  #about2nd{
+    height: 125vh;
+  }
+  
   .painting__content__gallery{
     height: 630px;
     .gallery__left{

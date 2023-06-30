@@ -1,0 +1,20 @@
+// 1050px, 1000px
+@media (max-width: 1050px) {
+  .painting__content__gallery{
+    height: 580px;
+    .gallery__left{
+      p{
+        width: 270px;
+        font-size: 21px;
+        line-height: 25px;
+        margin-left: -27%;
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .change-page2{
+    margin-left: 16%;
+  }
+}
