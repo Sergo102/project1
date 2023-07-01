@@ -98,6 +98,18 @@
       width: 13rem;
       height: 13rem;
     }
+    &__left{
+      .surface{
+        width: inherit;
+      }
+      .behind{
+        width: inherit;
+        height: inherit;
+        img{
+          width: inherit;
+        }
+      }
+    }
   }
 }
 

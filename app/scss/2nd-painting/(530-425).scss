@@ -1,4 +1,4 @@
-// 530px, 500px
+// 530px, 500px, 490px, 470px, 450px, 430px
 @media (max-width: 530px) {
   .painting__content__gallery{
     width: 100%;
@@ -45,13 +45,129 @@
   }
 
   .change-page2{
-    width: 25rem;
+    width: 27rem;
     height: 12rem;
     margin-left: 5%;
     &__left,
     &__right{
       width: 12rem;
       height: 12rem;
+      span.text{
+        width: 80%;
+      }
     }
+  }
+}
+
+@media (max-width: 490px) {
+  .painting__content__p{
+    width: 82%;
+    margin-left: 30%;
+    p{
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+
+  .change-page2{
+    width: 24rem;
+    height: 10rem;
+    margin-left: 5%;
+    &__left,
+    &__right{
+      width: 10rem;
+      height: 10rem;
+    }
+  }
+}
+
+@media (max-width: 470px) {
+  #painting__info2{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    .info__ul{
+      margin-bottom: 20px;
+      ul{
+        width: 100%;
+        height: 90px;
+        li{
+          font-size: 14px;
+        }
+      }
+      ul.key{
+        width: 80px;
+        li{
+          .key{
+            width: 100px;
+          }
+        }
+      }
+      ul.value{
+        width: 190px;
+        li{
+          span.value{
+            width: 180px;
+          }
+        }
+      }
+    }
+    p{
+      width: 100%;
+      font-family: 400;
+      line-height: 18px;
+      font-size: 16px;
+      margin: 0;
+    }
+  }
+
+  .painting__content__gallery{
+    height: 430px;
+    .gallery__left{
+      p{
+        font-size: 15px;
+        line-height: 20px;
+      }
+    }
+  }
+
+  .change-page2{
+    margin-left: 2.5%;
+  }
+}
+
+@media (max-width: 450px) {
+  .change-page2{
+    margin-left: 1.5%;
+  }
+}
+
+@media (max-width: 430px) {
+  #about2nd{
+    width: 100%;
+    div.about__wrapper{
+      width: 100%;
+      h2{
+        width: 350px;
+      }
+      img{
+        display: none;
+      }
+    }
+  }
+
+  .painting__content__gallery{
+    height: 400px;
+    .gallery__left{
+      p{
+        font-size: 14px;
+        line-height: 19px;
+      }
+    }
+  }
+
+  .change-page2{
+    margin-left: 0;
   }
 }
