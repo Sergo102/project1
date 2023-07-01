@@ -1,0 +1,72 @@
+// 400px, 375px, 350px, 320px
+@media (max-width: 400px) {
+  #header1{
+    div.header__content{
+      .header__content__title{
+        margin-left: -88%;
+      }
+    }
+  }
+
+  .painting__content__gallery{
+    height: 370px;
+    .gallery__left{
+      width: 50%;
+      p{
+        font-size: 12px;
+        line-height: 16px;
+      }
+    }
+  }
+
+  .change-page2{
+    width: 21.5rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .painting__content__p{
+    margin-left: 30%;
+    p{
+      font-size: 13px;
+      line-height: 16px;
+    }
+  }
+
+  .change-page2{
+    width: 20rem;
+    &__left,
+    &__right{
+      width: 9rem;
+      height: 9rem;
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  #about2nd{
+    div.about__wrapper{
+      h2{
+        padding: 0 5px;
+        font-size: 24px;
+      }
+    }
+  }
+
+  .change-page2{
+    width: 18.5rem;
+    margin-left: 1%;
+  }
+}
+
+@media (max-width: 320px) {
+  .change-page2{
+    width: 17rem;
+    margin-left: 0;
+    &__left,
+    &__right{
+      width: 8rem;
+      height: 8rem;
+    }
+  }
+}

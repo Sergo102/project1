@@ -1,4 +1,4 @@
-// 375px, 361px, 329px, 300px
+// 375px, 361px, 329px, 320px, 300px
 @media (max-width: 375px) {
   #main{
     h1{
@@ -61,6 +61,16 @@
     #footer__right{
       a, li{
         width: auto;
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  #footer{
+    #footer__right{
+      li{
+        padding: 0 3px;
       }
     }
   }
