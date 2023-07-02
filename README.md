@@ -6,3 +6,5 @@ Figma template -> https://www.figma.com/file/EQbNdl2BgnZyXCThEDkvU9/Visual-portf
 notes.md -> Functional Requirements and Notes 
 
 docs.md -> A little bit of explanation for styles
+
+I'm using different .js files for different pages
